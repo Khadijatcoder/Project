@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Aimakz Fashion Boutique</title>
+    <style>
+       body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        } 
+        header{
+            display: flex;
+            color: white;
+            background-color: black;
+            padding-left: 20px;
+            padding-top: 20px;
+            justify-content: space-between;
+            font-size: 15px;
+            align-items: center;
+            gap: 30px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+        .container{
+            border-radius: 20px;
+        }
+        nav{
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            background-color: indigo;
+            color: white ;
+            height: 80px;
+        }
+        th{
+            text-align: center;
+        }
+        h3{
+            color: indigo;
+        }
+        .first{
+            border: 10px solid indigo;
+            border-radius: 20px;
+            width: 250px;
+            padding: 10px;
+        }
+        .second{
+            border: 10px solid indigo;
+            border-radius: 20px;
+            width: 250px;
+            padding: 10px;
+        }
+        form{
+            border: 10px solid indigo;
+            border-radius: 20px;
+            width:80%;
+            margin: 60px;
+            margin-left: 100px;
+            padding: 30px;
+        }
+        .comb{
+            display: flex;
+            gap: 100px;
+            margin-top: 10px;
+            padding: 20px;
+            margin-left: 290px;
+        }
+        button{
+            border-radius: 10px;
+            width: 100%;
+            background-color: indigo;
+            height: 50px;
+            margin-top: 20px;
+
+        }
+        input{
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 50px;
+        }
+        label{
+            margin-top: 20px;
+        }
+        #feedback{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        footer{
+            background-color: black;
+            height: 70px;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+        @media(max-width:600px){
+            header{
+                font-size: 10px;
+            }
+            nav{
+                gap: 5px;
+            }
+
+            .comb{
+                flex-direction: column;
+                display: flex;
+                margin: 0;
+                
+            }
+            .first{
+                width: 90%;
+                margin-bottom: 0;
+            }
+            .second{
+                height: 200px;
+                width: 90%;
+            }
+            form{
+                width: 80%;
+                margin-left: 10px;
+            }
+        }
+        @media (min-width: 769px) and (max-width: 1024px)  {
+            header{
+                font-size: 15px;
+            }
+            .comb{
+                margin-left: 120px;
+                gap: 20px;
+            }
+            form{
+                margin-left: 30px;
+            }
+        }
+        @media (min-width: 601px) and (max-width: 768px) {
+            header{
+                font-size: 15px;
+                
+            }
+            .comb{
+                margin-left: 30px;
+                gap: 20px;
+            }
+            form{
+                margin-left: 0;
+            }
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="body">
+
+        <header>
+            <p>Fashion Boutique</p>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            </nav>
+           
+        </header>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="comb">
+
+            <div class="first">
+                <h3>Get In Touch</h3>
+                <p>Adress: 123 Fashion Street,Victoria Island,Lagos,Nigera</p>
+                <p>Phone: 08026743113</p>
+                <p>Email: aimakz24@gmail.com</p>
+            </div>
+
+            <div class="second">
+
+                <h3>Opening Hours</h3>
+
+                <table style="border: 2px solid black; border-collapse: collapse;" >
+
+                    <thead>
+
+                        <tr>
+                            <th style="border: 2px solid black;"><b>Day</b></th>
+                            <th style="border: 2px solid black;"><b>Time</b></th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tbody>
+
+                            <tr>
+                                <td style="border: 1px solid black;">Monday-Friday</td>
+                                <td style="border: 1px solid black;">9:00AM-8:00PM</td>
+                            </tr>
+
+                            <tr>
+                                <td style="border: 1px solid black;">Saturday</td>
+                                <td style="border: 1px solid black;">10:00AM-7:00PM</td>
+                            </tr>
+
+                            <tr>
+                                <td style="border: 1px solid black;">Sunday</td>
+                                <td style="border: 1px solid black;">12:00PM-6:00</td>
+                            </tr>
+
+                        </tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+        
+        </div>
+        
+        <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+            <h3 style="text-align: center;">Send Us a Message</h3>
+            <label for="fname">Full Name</label><br>
+            <input type="text" name="fname" class="fname" placeholder="Enter your First name" ><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" placeholder="Enter your Email" ><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" ><br>
+            <label for="feedback">Your Message:</label><br>
+            <textarea id="feedback" name="feedback" placeholder="Your Message" ></textarea><br>
+            <button type="submit">Send Message</button><br>
+        </form>
+
+        <footer>
+            <p>&copy; 2026 Aimakz Fashion Boutique.All right reserved.</p>
+        </footer>
+        
+
+    </div>
+</body>
+</html>

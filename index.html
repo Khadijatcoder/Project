@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Aimakz Fashion Boutique</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            display: flex;
+            color: white;
+            background-color: black;
+            padding: 15px 5%;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 20px;
+        }
+        nav{
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        .first{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            padding: 20px;
+        }
+        .one{
+            width: 50%;
+            border: 2px solid indigo;
+            box-shadow: 20px;
+            background-color: indigo;
+            color: white;   
+            border-radius: 20px;
+        }
+        .two{
+            width: 50%;
+        }
+        .two img{
+            width: 100%;
+            height: 400px;
+        }
+        .speech{
+            font-size: 24px;
+        }
+        h1{
+            color: indigo;
+            color: white;
+        }
+        .second{
+            border-radius: 20px;
+            border: 10px solid indigo;
+            gap: 100px;
+        }
+        .three{
+            width: 280px;
+            height: 280px;
+            padding: 20px;
+            
+        }
+        .Pic{
+            border-radius: 20px;
+        }
+        h2{
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+           height: 70px;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+        .job{
+            display: flex;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .third{
+            padding-left: 10px;
+            border: 10px solid indigo;
+            border-radius: 10px;
+        }
+        @media(max-width:600px){
+          
+            nav{
+                gap: 5px;
+            }
+            .first{
+                flex-direction: column;
+                
+            }
+            .one{
+                width: 100%;
+            }
+            .two{
+                width: 100%;
+            }
+            .job{
+                flex-direction: column;
+            }
+            .second{
+                text-align: center;
+            }
+           
+        }
+        @media (min-width: 601px) and (max-width: 1024px) {
+           
+            .first{
+                flex-direction: column;
+
+            }
+            .one{
+                width: 100%;
+            }
+            .two{
+                width: 100%;
+            }
+            .second{
+                text-align: center;
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="body">
+
+        <header>
+            <p>Fashion Boutique</p>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            </nav>
+           
+        </header>
+
+        <div class="first">
+            <div class="one">
+                <h1>Welcome To Aimakz Fashion Boutique</h1>
+
+                <p class="speech">
+
+                Good day, everyone,
+
+                It is with great pleasure that I welcome you all to Aimakz Fashion Boutique.
+
+                We are truly honored to have you here today.
+
+                At Aimakz Fashion Boutique, we believe that fashion is more than just
+
+                clothing,it's a way of expressing confidence, beauty, and individuality.
+
+                Thank you, and enjoy your time with us!</p>
+            </div>
+            <div class="two">
+                <img src="logo.png" alt="Pic" class="Pic">
+            </div>
+        </div>
+        <h2>Feautured Collection</h2>
+        <div class="second">
+            <img src="blue woman.png" alt="Woman" class="three">
+            <img src="black man.png" alt="Man" class="three">
+            <img src="brown shoes.png" alt="Shoes" class="three">
+            <img src="purple bag.png" alt="Accessories" class="three">
+        </div>
+
+        <h2>Why Shop With Us</h2>
+
+        <div class="job">
+            <div class="third">
+                <h3>Quality  Products</h3>
+                <p>We offer high quality fashion you can trust</p>
+            </div>
+
+            <div class="third">
+                <h3>Trendy Styles</h3>
+                <p>Stay ahead with the latest fashion trends</p>
+            </div>
+
+            <div class="third">
+                <h3>Affordable Prices</h3>
+                <p>Great style doesn't need to be expensive</p>
+            </div>
+
+            <div class="third">
+                <h3> Fast Delivery</h3>
+                <p>Quick and reliable delivery to your door</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Aimakz Fashion Boutique.All right reseved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>

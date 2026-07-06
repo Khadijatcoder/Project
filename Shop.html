@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Aimakz Fashion Boutique</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            display: flex;
+            color: white;
+            background-color: black;
+            padding-left: 20px;
+            padding-top: 20px;
+            justify-content: space-between;
+            font-size: 15px;
+            align-items: center;
+            gap: 30px;
+            border-radius: 20px;
+        }
+        nav{
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+      
+       footer{
+            background-color: black;
+            height: 70px;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 20px;
+            font-size: 15px;
+        }
+        .shoplist{
+            grid-template-columns: repeat(3,1fr); 
+            display: grid;
+            gap: 50px;
+            margin-left: 60px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        button{
+            background-color: darkblue;
+            border-radius: 5px;
+            height: 30px;
+            width: 100px;
+        }
+        .first{
+            border: 10px solid indigo;
+            border-radius: 15px;
+            width: 140px;
+            padding: 10px;
+            text-align: center;
+        }
+         
+        @media(max-width:600px){
+            header{
+                font-size: 10px;
+                padding-left: 30px;
+            }
+            nav{
+                gap: 5px;
+            }
+
+            .shoplist{
+                flex-direction: column;
+                display: flex;
+                text-align: center;
+                margin-left: 0;
+            }
+            .first{
+                width: 300px;
+            }
+            table{
+                display: flex;
+                margin-left: 20px;
+            }
+        }
+        @media (min-width: 601px) and (max-width: 1024px) {
+            header{
+                font-size: 5px;
+                padding-right: 30px;
+            }
+            .shoplist{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                
+            }
+            .first{
+                width: 80%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+
+        <header>
+            <p>Fashion Boutique</p>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="Shop.html">Shop</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            </nav>
+           
+        </header>
+
+            <div class="shoplist">
+
+                <div class="first">
+
+                    <div>
+                        <img src="shirt.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Casual shirt</div>
+
+                    <div>₦9,500</div>
+
+                    <button type="submit">Buy Now</button>
+                    
+                </div>
+
+                <div class="first">
+                    <div>
+                        <img src="white shoe.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Comfy Shoes</div>
+
+                    <div>₦12,000</div>
+
+                    <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="first">
+                    <div>
+                        <img src="dress 2.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Beach dress</div>
+
+                    <div>₦15,000</div>
+
+                    <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="first">
+                    <div>
+                        <img src="orange man.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Jacket</div>
+
+                    <div>₦10,000</div>
+
+                    <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="first">
+                    <div>
+                        <img src="dress 1.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Summer Dress</div>
+
+                    <div>₦12,500</div>
+
+                    <button type="submit">Buy Now</button>
+                </div>
+
+                <div class="first">
+                    <div>
+                        <img src="spec.png" alt="Pic" class="free">
+                    </div>
+
+                    <div>Purple lens Spectacles</div>
+
+                    <div>₦700,000</div>
+
+                    <button type="submit">Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Aimakz Fashion Boutique.All right reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
